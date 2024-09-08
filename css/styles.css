@@ -1,0 +1,80 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+ul.list-inline li {
+  border: 1px solid #007bff;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 4px;
+  display: inline-block;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover Effect for List Items */
+ul.list-inline li:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Hover Effect for Header Section */
+header {
+  transition: background-color 0.3s ease;
+}
+
+header:hover {
+  background-color: #0056b3;
+}
+
+/* Hover Effect for Sections */
+section {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  background-color: #d4d4d4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects and Experience List Hover Effect */
+ul.list-unstyled li {
+  padding: 10px;
+  border-left: 3px solid transparent;
+  transition: background-color 0.3s ease, border-left-color 0.3s ease;
+}
+
+ul.list-unstyled li:hover {
+  background-color: #f1f1f1;
+  border-left-color: #007bff;
+}
+
+/* Button-like Hover Effect for Contact Info */
+header p i {
+  transition: color 0.3s ease;
+}
+
+header p i:hover {
+  color: #ffdd57;
+}
+
+/* Footer Styling */
+/* Footer Styling */
+/* Custom hover effects for links */
+.icon-link-hover {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #343a40;
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.icon-link-hover:hover {
+  background-color: #ffffff; /* Darker background on hover */
+  color: #000000;
+}
+
